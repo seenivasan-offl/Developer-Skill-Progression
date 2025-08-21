@@ -63,3 +63,8 @@ Subtopics Page – Allows marking each subtopic as completed.
 📊 User dashboard for tracking multiple courses
 
 📝 Notes section for each topic
+<img width="1919" height="957" alt="Screenshot 2025-08-21 150536" src="https://github.com/user-attachments/assets/042d028c-f2e5-435f-9a79-2112eecb3d24" />
+<img width="1919" height="960" alt="Screenshot 2025-08-21 150526" src="https://github.com/user-attachments/assets/59482839-a08b-4532-b067-601cf8ba36ef" />
+<img width="1919" height="978" alt="Screenshot 2025-08-21 150519" src="https://github.com/user-attachments/assets/8b95a475-6ef7-4352-8efd-0cc7baab9b91" />
+<img width="1919" height="933" alt="Screenshot 2025-08-21 150554" src="https://github.com/user-attachments/assets/d2fb3325-7334-4058-9be1-02a17b012ac8" />
+
