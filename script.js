@@ -111,9 +111,57 @@ const courses = [
                     ]
                 }
             ];
+            loadProgress();
+renderCourses();
+
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+
+if (localStorage.getItem('darkMode') === 'enabled') {
+  document.body.classList.add('dark-mode');
+}
+
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  if(document.body.classList.contains('dark-mode')) {
+    localStorage.setItem('darkMode', 'enabled');
+  } else {
+    localStorage.setItem('darkMode', 'disabled');
+  }
+});
 
 
 let currentCourse = null, currentTopic = null;
+
+function loadProgress() {
+  const saved = localStorage.getItem('developerSkillProgress');
+  if (saved) {
+    try {
+      const data = JSON.parse(saved);
+      courses.forEach(course => {
+        const savedCourse = data.find(c => c.id === course.id);
+        if (savedCourse && savedCourse.syllabus) {
+          course.syllabus.forEach((topic, i) => {
+            if (savedCourse.syllabus[i]) {
+              topic.progress = savedCourse.syllabus[i].progress || 0;
+            }
+          });
+        }
+      });
+    } catch (e) {
+      console.error('Failed to parse saved progress:', e);
+    }
+  }
+}
+
+// Save progress to localStorage
+function saveProgress() {
+  const data = courses.map(course => ({
+    id: course.id,
+    syllabus: course.syllabus.map(topic => ({ progress: topic.progress }))
+  }));
+  localStorage.setItem('developerSkillProgress', JSON.stringify(data));
+}
 
 // Compute progress %
 function getCourseProgress(course) {
@@ -204,6 +252,7 @@ function renderSubtopics(topic) {
     col.querySelector("button").onclick = () => {
       if(idx >= topic.progress) {
         topic.progress++;
+        saveProgress(); 
         renderSubtopics(topic);
       }
     };
