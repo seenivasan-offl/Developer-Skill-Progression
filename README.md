@@ -1,72 +1,84 @@
-🚀 Developer Skill Progression Guide
+# 🚀 Developer Skill Progression Guide
 
-A web-based interactive roadmap application to help developers track their progress across different domains like Frontend, Backend, Full Stack, Data Science, DevOps, Cybersecurity, Cloud, Mobile Development, AI, and Blockchain.
+A web-based interactive roadmap application to help developers track their progress across multiple domains such as Frontend, Backend, Full Stack, Data Science, DevOps, Cybersecurity, Cloud, Mobile Development, AI, and Blockchain.
 
-This project is built with HTML, CSS (Bootstrap 5), and Vanilla JavaScript. It features dynamic course rendering, progress tracking, and navigation between courses → syllabus → subtopics.
+This project is built with pure HTML, CSS, and Vanilla JavaScript. It features dynamic course rendering, progress tracking, and easy navigation between courses → syllabus → subtopics.
 
-📌 Features
+---
 
-📚 Courses Overview – Displays all available courses with overall progress bars.
+## 📌 Features
 
-📖 Syllabus View – Each course has multiple topics with individual progress tracking.
+- 📚 **Courses Overview** – Displays all available courses with overall progress bars.  
+- 📖 **Syllabus View** – Shows detailed topics within each course with individual progress tracking.  
+- ✅ **Subtopic Completion** – Users can mark subtopics as completed to dynamically update their progress.  
+- 🎨 **UI/UX Enhancements** – Responsive layout with hover animations and styled progress bars, all styled with custom CSS.  
+- 🔄 **Navigation** – Smooth navigation back and forth between courses, syllabus, and subtopics.  
 
-✅ Subtopic Completion – Mark subtopics as completed to update progress dynamically.
+---
 
-🎨 UI/UX Enhancements
+## 🛠️ Tech Stack
 
-Bootstrap 5 responsive layout
+- HTML5 – Structure  
+- CSS3 – Custom styling & responsive layout  
+- JavaScript (ES6+) – Dynamic rendering & progress tracking  
 
-Font Awesome icons
+---
 
-Hover animations & styled progress bars
+## 🎯 Preview
 
-🔄 Navigation – Easily move back and forth between courses, syllabus, and subtopics.
+### Course List Page  
+![Course List Page](images/screenshot-course-list.png)
 
-🛠️ Tech Stack
+### Syllabus Page  
+![Syllabus Page](images/screenshot-syllabus.png)
 
-HTML5 – Structure
+### Subtopics Page  
+![Subtopics Page](images/screenshot-subtopics.png)
 
-CSS3 + Bootstrap 5.3.3 – Styling & responsive layout
+### Additional Views  
+![Additional View](images/screenshot-other.png)
 
-JavaScript (ES6+) – Dynamic rendering & progress tracking
+---
 
-Font Awesome – Icons
+## 🚀 Getting Started
 
-🚀 Getting Started
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/developer-skill-guide.git
-cd developer-skill-guide
+1. **Clone the Repository**  
+git clone https://github.com/seenivasan-offl/Developer-Skill-Progression.git
+cd Developer-Skill-Progression
 
-2️⃣ Open in Browser
+text
 
-Simply open index.html in any modern browser.
+2. **Open in Browser**  
+Simply open `index.html` in any modern browser.
 
-📂 Project Structure
-developer-skill-guide/
-│── index.html        # Main HTML file (contains CSS + JS inline)
-│── README.md         # Documentation
+---
 
-📸 Preview
+## 🔖 Future Improvements
 
-Course List Page – Shows all available courses with progress.
+- Save progress using `localStorage` or backend database  
+- Add a Dark mode toggle  
+- Create a user dashboard for tracking multiple courses  
+- Include a notes section for each topic  
 
-Syllabus Page – Displays topics within a course.
+---
 
-Subtopics Page – Allows marking each subtopic as completed.
+## Project Structure
 
-🎯 Future Improvements
+Developer-Skill-Progression/
+│── index.html # Main HTML file with structure
+│── style.css # Custom styles
+│── script.js # JavaScript progression logic
+│── README.md # Project documentation
+│── images/ # Screenshots and assets
 
-🔖 Save progress in localStorage or a backend database
+text
 
-🌙 Dark mode toggle
+---
 
-📊 User dashboard for tracking multiple courses
+## License
 
-📝 Notes section for each topic
+This project is open source and free to use.
 
+---
 
-<img width="1919" height="957" alt="Screenshot 2025-08-21 150536" src="https://github.com/user-attachments/assets/042d028c-f2e5-435f-9a79-2112eecb3d24" />
-<img width="1919" height="960" alt="Screenshot 2025-08-21 150526" src="https://github.com/user-attachments/assets/59482839-a08b-4532-b067-601cf8ba36ef" />
-<img width="1919" height="978" alt="Screenshot 2025-08-21 150519" src="https://github.com/user-attachments/assets/8b95a475-6ef7-4352-8efd-0cc7baab9b91" />
-<img width="1919" height="933" alt="Screenshot 2025-08-21 150554" src="https://github.com/user-attachments/assets/d2fb3325-7334-4058-9be1-02a17b012ac8" />
-
+*Thank you for checking out my Developer Skill Progression Guide project!*
