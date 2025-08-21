@@ -58,8 +58,6 @@ Simply open `index.html` in any modern browser.
 
 ## 🔖 Future Improvements
 
-- Save progress using `localStorage` or backend database  
-- Add a Dark mode toggle  
 - Create a user dashboard for tracking multiple courses  
 - Include a notes section for each topic  
 
@@ -72,7 +70,6 @@ Developer-Skill-Progression/
 │── style.css # Custom styles
 │── script.js # JavaScript progression logic
 │── README.md # Project documentation
-│── images/ # Screenshots and assets
 
 text
 
