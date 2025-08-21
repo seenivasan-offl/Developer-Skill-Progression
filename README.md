@@ -27,17 +27,20 @@ This project is built with pure HTML, CSS, and Vanilla JavaScript. It features d
 ## 🎯 Preview
 
 ### Course List Page  
-<img width="1919" height="952" alt="Screenshot 2025-08-21 160854" src="https://github.com/user-attachments/assets/9401dcd8-e3a3-487f-a152-67e434e9dcb7" />
+<img width="1919" height="952" alt="Screenshot 2025-08-21 160854" src="https://github.com/user-attachments/assets/ee044676-6d78-4d93-8abb-640b1b73bb2f" />
+
 
 
 
 ### Syllabus Page  
-<img width="1919" height="968" alt="Screenshot 2025-08-21 160849" src="https://github.com/user-attachments/assets/3389be2a-2e31-4dd1-81e0-fea1be2744c3" />
+<img width="1919" height="968" alt="Screenshot 2025-08-21 160849" src="https://github.com/user-attachments/assets/afc44ec0-9f20-4b5e-9072-70ab0f1b90d6" />
+
 
 
 
 ### Subtopics Page  
-<img width="1919" height="957" alt="Screenshot 2025-08-21 150536" src="https://github.com/user-attachments/assets/72e0a375-52b5-41cd-a205-58425f34724c" />
+<img width="1919" height="959" alt="Screenshot 2025-08-21 160839" src="https://github.com/user-attachments/assets/f6396dc5-f159-4746-8831-3e193a057b1d" />
+
 
 
 
